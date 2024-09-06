@@ -12,9 +12,4 @@ public class Rectangle implements Shape {
     public double getArea() {
         return height * width;
     }
-
-    public void draw() {
-        double area = this.getArea();
-        System.out.println("Shape printed\n" + "Its area is " + area);
-    }
 }
